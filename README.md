@@ -29,6 +29,10 @@ DATABASE_URL=[]
 $ yarn install
 ```
 
+> Nota: Puedes usar una base de datos local cambiando en el archivo `.env` la variable `DATABASE_URL`
+``` DATABASE_URL=postgresql://username:password@localhost:5432/  ```
+Y ejecutando el comando `prisma migrate dev --name init` 
+
 ## Running the app
 
 ```bash
