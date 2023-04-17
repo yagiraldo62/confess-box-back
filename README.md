@@ -23,8 +23,15 @@ GOOGLE_SECRET=
 DATABASE_URL=[]
 ```
 
-## Installation
+# Ejecutar la aplicación
 
+### Docker
+
+```bash
+$ yarn start-d
+```
+
+### Instalación manual
 ```bash
 $ yarn install
 ```
