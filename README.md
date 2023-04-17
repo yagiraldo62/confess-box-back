@@ -17,7 +17,7 @@ Cambia el nombre de `.env.example` a `.env` y llena las propiedades de `GOOGLE_C
 
 ```bash
 GOOGLE_CLIENT_ID=
-=
+GOOGLE_SECRET=
 
 # Puedes usar la DB de prueba que estara disponible por unos dias
 DATABASE_URL=[]
