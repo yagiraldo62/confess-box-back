@@ -17,12 +17,14 @@ export class PostRepository {
         _count: true,
         author: {
           select: {
+            id: true,
             name: true,
             photo: true,
           },
         },
         comments: {
           select: {
+            id: true,
             content: true,
             createdAt: true,
           },
