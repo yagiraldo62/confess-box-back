@@ -28,6 +28,7 @@ DATABASE_URL=[]
 ### Docker
 
 ```bash
+$ yarn install
 $ yarn start-d
 ```
 
